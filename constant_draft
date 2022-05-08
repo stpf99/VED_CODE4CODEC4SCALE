@@ -35,10 +35,15 @@ it is not working code in any language ,just so basic proposition/draft
 (c.onstant[t.imes]n.ew)
 (s.tatic["1"]n.ew)
 
+may be answered it is most simple end most lees loosing data example where camera somthing records (also based on this constant proposal ) is decompresed in not frames per second
+but for example camera possibilities (120frames/sec) is matching screen with 120frames/sec rate but if screen is only 60 fr/sec data needed from 
+stream for that screen is step1 (needed) after step2 not needed is probed
+
+
+
 
 
 for one frame (still image)
-
 
 define pixel (p)
 define vertical (y)
