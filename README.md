@@ -46,24 +46,4 @@ i program do konpresji i dekompresji dzialalby w trybie mieszanym czyli pierwsza
 
 jeszcze jeden przyklad z moich rozmyslan ktory bazuje na constant
 
-taki codec zaprojektowałem
-
-define pixel (p)
-define time (z)
-define vertical (y)
-define horizontal (x)
-{
- grab p = y(1), x(1), z(1)
- compress p = 1
-( 
- if p(1) = constant (y) , constant (x) , constant (z) then 
- print 
- p = constant(x), constant (y), constant(z) else 
- grab p +1 = (x =  last + 1 , y = last + 1, z = last + 1 ) then
- if p + 1 = constant (y) , constant (x) , constant (z) then 
- print  
- p + 1 = constant(x), constant (y), constant(z)
- fi
-)
-)
 
