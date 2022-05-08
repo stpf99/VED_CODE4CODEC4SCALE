@@ -46,14 +46,16 @@ define p(y) = y+1, p(x)
 	if p(x) = constant (x) , constant(y)
  then 
 	print 
-	p = constant(x), constant(y) else 
+	p = constant(x), constant(y)
+	 else 
 	fill p = x,y
 	else
-    p(x)+1 = constant (x) , constant (y)+1 then 
+    p(x)+1 = constant (x) , constant (y)+1 
+         then 
 	print 
 	p = constant(x), constant (y)+1 else 
 	fill p = x,y
 	fi
 
-)
-)
+}
+}
