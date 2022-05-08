@@ -22,6 +22,39 @@
  )
  )
  
+ and for example fullhd video in time with every pixel in resolution
+ 
+ define pixel (p)   //pixel is for examle 12bit string for some complex panels
+ define time (z)    // time is grabed/probed from wideo if recoreding exist or if it is realtime transmission 
+ define vertical (y) // y is vertical postion //1-1080
+ define horizontal (x) // x is horizontal position //1-1920
+ define constant = (n+1 == n) // every next bit representation of probed pixel is the same as first i n pool to next pool (where is different)
+ define framepool = 2073600 (1080x1920pixels) ( frame pool is multiplication  x horizontal pixels and y vertical pixels
+ define unique_pixel_pool = $[1-$(framepool){p_ad}]     //(1-2073600{p_ad}) // adrreses for that pool loaded in to memory /2073600x12bit=24883200 /25mbit/3,5magebyte
+ define pool = $unique_pixel_poll //pool of adresses for  ingrid-processing 
+ {
+ grab pool = for each y(1), x(1), z(1) do
+ 
+ compress pool = (pa_ad)    ///first and every next  unchenged stream steams (still image + data in time z times)
+ ( 
+ if p_ad(1) = constant (y) , constant (x) , constant (z)
+ then 
+ print 
+ p_ad = constant(x), constant (y), constant(z)
+ else 
+ grab p_ad + 1 = (x =  last + 1 , y = last + 1, z = last + 1 )
+ then
+ if p_ad + 1 = constant (y) , constant (x) , constant (z) 
+ then 
+ print  
+ p_ad + 1 = constant(x), constant (y), constant(z)
+)
+ fi
+ )
+ done
+ 
+ 
+ 
  
  haha 
  How to hack this axample:
