@@ -43,7 +43,8 @@ i program do konpresji i dekompresji dzialalby w trybie mieszanym czyli pierwsza
 
 
 
-
-jeszcze jeden przyklad z moich rozmyslan ktory bazuje na constant
-
+1 > 0 < 1 > 0 < 1 < 2 > 1 < 8 > 6 (>) > 0 > 0 > 1 > 6
+AI Image processing" według mojego pomysłu na który wpadłem przed chwilą wyglądałby na coś w ten deseń że. dla wartości opisujących każdego pixela i sąsiadujące z nim w czterech kierunkach pixeli "+" można by było na tej wartości z pixela głownego i sąsiednich wypisać ciąg danych np 3(pixel głowny) - 2( pixel wrzedzie poprzedni) +1 (pixel w rzedzie kolejnym) -,- 4 (pixel w rzędzie poprzednim nad pixelem głownym) +,+6( pixel wrzedzie kolejnym pod pixelem głownym), Wtedy mamy taki ciąg danych:
+ ,a3,b2,c1,d4,e6
+i z takim ciągiem można robic co sie żywnie podoba stosując różne znane algorytmy matematyczne wg uznania , można zastosówać  wykrywanie w którym kierunku mając już kilka opisanych w zasobie np 32x32 px jest wzrost wartości rgb typu red green blue i ntej podstawie opisywać wektory potrzebne dla różnych filtrów które były by stosowane w rożnych celach np: w inteligentym podnoszeniu jakości zdjęć/grafik lub video , zbiór takich danych mógłby się przydać w AI paintingu processingu foto/video lub w wykrywać którym kierunku coś się porusza
 
