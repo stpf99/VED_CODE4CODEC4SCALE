@@ -26,10 +26,15 @@
  haha 
  How to hack this axample:
  
- this is streamlined proposition for screen (map of pixels with x,y position -adress)
- and what is happen to any pixel in time of video streaming
- function constant is main function for data (changes) adressing
+ this is streamlined proposition for screen (map of pixels with x,y position -pixel adres)
+ and what is happen to any pixel in time when video streaming
+ function constant (c.onstant[t.imes]n.ew) where n.ew is pool of the same bits (every next bit is the 
+ same in pool /[n+1=n] / as first before next different t times) is main function for data (changes) adressing
 it is not working code in any language ,just so basic proposition/draft
+
+(c.onstant[t.imes]n.ew)
+(s.tatic["1"]n.ew)
+
 
 
 for one frame (still image)
