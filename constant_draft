@@ -30,3 +30,30 @@
  and what is happen to any pixel in time of video streaming
  function constant is main function for data (changes) adressing
 it is not working code in any language ,just so basic proposition/draft
+
+
+for one frame (still image)
+
+
+define pixel (p)
+define vertical (y)
+define horizontal (x)
+{
+p = y, x
+define p(x) = y, x+1
+define p(y) = y+1, p(x)
+	{
+	if p(x) = constant (x) , constant(y)
+ then 
+	print 
+	p = constant(x), constant(y) else 
+	fill p = x,y
+	else
+    p(x)+1 = constant (x) , constant (y)+1 then 
+	print 
+	p = constant(x), constant (y)+1 else 
+	fill p = x,y
+	fi
+
+)
+)
