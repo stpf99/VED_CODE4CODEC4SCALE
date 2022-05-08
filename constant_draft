@@ -53,7 +53,8 @@ define p(y) = y+1, p(x)
     p(x)+1 = constant (x) , constant (y)+1 
          then 
 	print 
-	p = constant(x), constant (y)+1 else 
+	p = constant(x), constant (y)+1 
+	else 
 	fill p = x,y
 	fi
 
