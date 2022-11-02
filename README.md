@@ -69,10 +69,7 @@ myslalem przed chwila wlasnie o nowej metodzie kompresji AI ale narazie dla ogol
 
 o-x.jpg
 Najprostszy przyklad/cwiczenie dla algorytmu kompresji AI o ktorej mowilem bedzie opracowanie jak najmniejszego a zarazem najszybszego kodu dla zakodowania a poznioej odkodowania toku rozgrywnki tej o to prostej gry kolko krzyzyk ale dowolnej tego typu rozgrywki czyli kod mosialby rozpoznac x / o i jakie sa kolejne pola wystepowania x / o i zapisac ten dowolny tok wystepowania jaknajszybciej i jak najmiej danych uzywajac . . .
-w informatyce jest tak ze jak cos swietnie dziala na skeletonie/prymitywie to nie ma problemu aby dawalo rade w realiach
-i jesli to sie uda zrobic to nastepnie mozna myslec juz o wiekszych i zarazem bardziej oblozonych strukturach danych
-
-czyli gdyby to byla jedna sekunda wideo (5-klatek wideo o res 3:3)
+czyli gdyby to byla jedna sekunda wideo (5-klatek wideo o res 3x3)
 i bylby to nawet nie czarno bialy obraz tylko kwadraty czarne i biale
 tok postepowania dla 1 sekundy:
 0.wykryc bitrate do czasu jednej sekundy i jesli jest on o jakiejs wielkosci stalej dla zdefiniowanych typow rozdzielczosci - proporcji zastosowac odpowiedni wariant algorytmu / preset
@@ -84,7 +81,15 @@ tok postepowania dla 1 sekundy:
 czyli 11111,00011,00001,01111,00000,00000,00010,00000,00000 ale to nam prawie nic nie jedynie jak mozna zauwazyc pojawilo sie  4 razy 000000 a wczesniej nie bylo takiego ujednolicenia/co wcale w realnym swiecie nie musi sie zdazyc
 5. i tu tak naprawde tkwi sedno bo mamy w polu 9 polowym 81 kombinacji rozmieszczen czyli od 0-80 a w czasie czyli tych 9 polach w pieciu klatkach 81x5 = 405 kobinacji dla 5 klatek 
 hahaha i mamy to ,
- czyli jak widzicie za pomoca jednego predefiniowanego patterna /zaadresowanej kombinacji dajmy na to 234 na przyklad adresu da sie wszystko z tych 9 pol i 5 klatek ogarnac do jedengo zapisu
+ czyli jak widzicie za pomoca jednego predefiniowanego patterna /zaadresowanej kombinacji dajmy na to 234 na przyklad adresu da sie wszystko z tych 9 pol i 5 klatek ogarnac do jedengo zapisu/adresu puli danych=234 gdzie kod programu dokladnie wie co rozpakowac klatka po klatce w tym przedziale czasu dla tych danych dla 5 klatek 
+i wcale tych 5 klatek nie potrzeba potengowac do kwadratu bo to jest dalej rozpatrywane jako 81 tylko z klatki 1 na klatke 5 zsumowana rzeczywistosc w czasie tych wariantow wynosi 405 a dla tego rozpatrywac mozna to w czasie gdyz jaki to obecnie problem wczytac do pamieci ram iles nawet tysiecy paternow dla jeszcze bardziej zkomplikowanych  presetow chyba 64x64 =4096 x 60 klatek/s = 245760 ,ciag 245~ kilobitow= 30Kbajt dla 60 klatek a dla 30kl 122 kb 
+obecnie hevc dla 1080/30kl to ok 4Mbit / s 
+policzmy dla mojego przykladu: 1080x1920x30kl 2073600 = ~1000x1000x2(x30) /
+1000x1000 byloby podstawa dla makrobloka czyli 1000000 kombinacji x 2 x 30 = 60 000 000 kombianacji = 1sek full hd 30 kl/s=  60 000 kbitow/s = /8 (bajt) = >>>>>>>5,250 mbajt<<<<<<<<<<<< 1 sek (30 kl fhd) co daje dobra podstawe do reszty aplikacji
+czyli 1h fhd 30 kl/s = x 3600 === 1890mbajt 
+a jest jeszcze cos takiego jak transmsja 1080i i wtedy dzieli sie wynik przez 2 = 2.625 mbit/s = 900 mb(1h)
+dalsze mozliwe zabiegi polegalyby na skopresowaniu samych paternow a wlasciwie kazdego z pojedyncza jakims zgrabnym algorytmem na przykladzie sortowania tych dluzszych paternow ta sama metoda czyli 999999 czyli co da 60pol xyz(3x2x10- bo od 0 do 9 = 6z [z=0-9])(a,b,c,d,e,f,-0-9) kombinacji[  i te kmbinacje zapisac na nizszym podrecznym poziomie i z nich bezposrednio po pomocnym dekodowaniu wyluskywac wlasciwe dane
+a jesli brac pod uwage ze transmisja nie jest na zywo tylko retransmitowana a odbiornik ma cache do buforowania np 5 sek opznienia to te 5 sekund mozna juz kompresowac jakimkolwiek compresorem real-time
 w informatyce jest tak ze jak cos swietnie dziala na skeletonie/prymitywie to nie ma problemu aby dawalo rade w realiach
 i jesli to sie uda zrobic to nastepnie mozna myslec juz o wiekszych i zarazem bardziej oblozonych strukturach danych
 
