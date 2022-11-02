@@ -72,4 +72,20 @@ Najprostszy przyklad/cwiczenie dla algorytmu kompresji AI o ktorej mowilem bedzi
 w informatyce jest tak ze jak cos swietnie dziala na skeletonie/prymitywie to nie ma problemu aby dawalo rade w realiach
 i jesli to sie uda zrobic to nastepnie mozna myslec juz o wiekszych i zarazem bardziej oblozonych strukturach danych
 
+czyli gdyby to byla jedna sekunda wideo (5-klatek wideo o res 3:3)
+i bylby to nawet nie czarno bialy obraz tylko kwadraty czarne i biale
+tok postepowania dla 1 sekundy:
+0.wykryc bitrate do czasu jednej sekundy i jesli jest on o jakiejs wielkosci stalej dla zdefiniowanych typow rozdzielczosci - proporcji zastosowac odpowiedni wariant algorytmu / preset
+1.pule danych-T-Data(1s-Time) podzielic przez 5 (klatki-frames)
+2.pol-Poles mamy =9 tak wiec =9 adresow -P-Adress dla kazdej klatki
+3.pod kazdym z adresow P-Adress(1-9) kod wypisuje =0 dla pola bialego lub =1 dla pola czarnego np
+ 100000000, 100100000, 100100100, 110100100, 111100100
+4. nastepnie dla kazdego z adresow wylicza jak zminial sie klatka po klatce
+czyli 11111,00011,00001,01111,00000,00000,00010,00000,00000 ale to nam prawie nic nie jedynie jak mozna zauwazyc pojawilo sie  4 razy 000000 a wczesniej nie bylo takiego ujednolicenia/co wcale w realnym swiecie nie musi sie zdazyc
+5. i tu tak naprawde tkwi sedno bo mamy w polu 9 polowym 81 kombinacji rozmieszczen czyli od 0-80 a w czasie czyli tych 9 polach w pieciu klatkach 81x5 = 405 kobinacji dla 5 klatek 
+hahaha i mamy to ,
+ czyli jak widzicie za pomoca jednego predefiniowanego patterna /zaadresowanej kombinacji dajmy na to 234 na przyklad adresu da sie wszystko z tych 9 pol i 5 klatek ogarnac do jedengo zapisu
+w informatyce jest tak ze jak cos swietnie dziala na skeletonie/prymitywie to nie ma problemu aby dawalo rade w realiach
+i jesli to sie uda zrobic to nastepnie mozna myslec juz o wiekszych i zarazem bardziej oblozonych strukturach danych
+
 
