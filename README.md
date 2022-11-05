@@ -26,18 +26,18 @@ https://github.com/devegoo/VED_CODE4CODEC4SCALE/blob/main/upraszczanie%20na%20po
 mamy tu w sumie 8 pozycji 12342413 a po jednoprzbiegowej kompresji w tym przypadku pozostało operant i pzycje kolejno : +1,+2,-5,1 wartość wejsciowa to pierwsza z puli do przebiegu kompresji mogłaby być oznaczona przedrostkiem 0 pozniej kolejno pozycje 1wartość,2wartosc,3wartosc,4wartosc a operant powtórzenia wartosci pozycji moglby byc zapisywany tam gdzie wystepuje jako podwójna komórka czyli bez przecinka zrobiloby sie poprostu 2 bity w ciągu co by było z automatu rozpoznawane, moc obliczeniowa potrzebna do tego bedzie zalezała od ilośći danych i ilorazu powtórzenia przebiegów , moze to byc uzyte w kompresji i dekompresji RealTime na bardzo słabym obliczeniowo cpu czyli na wszystkim co przychodzi na myśl
 
 
-01 - 10 + 00 przedrostek wejsciowy
+(01 -) (10 + )(00 przedrostek wejsciowy)
 a wiem jeszcze lepiej jak to ułożyć aby były spójniejsze szeregi danych
-01 bylby -
-10 bylby +
-00 poczatkowe dane
-11 pozycja powtarzająca sie
-czyli wstepnie ciag po pierwszym przbiegu z 1234,2413 do +1,+2-51 byłby widziany 10 1, 10 2 01 5 11 1
-Decimal to Binary converter skonwertuje te wartości do ciągu 10 1 10 10 01 101 11 1
+(01 bylby -)
+(10 bylby +)
+(00 poczatkowe dane)
+(11 pozycja powtarzająca sie)
+czyli wstepnie ciag po pierwszym przbiegu z 1234,(2413) do (+1,+2-5) 1 byłby widziany (10 1), (10 2) (01 5) (11 1)
+Decimal to Binary converter skonwertuje te wartości do ciągu (10 1 10 10 01 101 11 1)
 przy czym co druga wartość byłaby binarnie zapisana
 i program do konpresji i dekompresji dzialalby w trybie mieszanym czyli pierwsza i kążda po-nastepna to znana wartość operanta a druga i każda po-następna to wartość binarna
 12342413 - 101111000101010010001101
-10 1 10 10 01 101 11 1 -xx1xx10xx101xx1-1101011
+10 (1) 10 (10) 01 (101) 11 (1) -xx1xx10xx101xx1-1101011
 24 ciąg zredukowalem do 6 czyli ratio uzyskałem 4 do 1 bezstratnie
 
 
