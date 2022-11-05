@@ -40,6 +40,8 @@ i program do konpresji i dekompresji dzialalby w trybie mieszanym czyli pierwsza
 10 (1) 10 (10) 01 (101) 11 (1) -xx1xx10xx101xx1-1101011
 24 ciąg zredukowalem do 6 czyli ratio uzyskałem 4 do 1 bezstratnie
 
+to ma sens poniewaz chyba lepiej zapisac cos ze sie powtarza tylko dwoma pozycjami (binary "red")(11)(19)  np kolor czerwony o danym spektrum rgb jesli wystapil w ciagu danych a kompresor wykryl ze jest on taki sam np 19 razy po uwzglednieniu uchybien nie dostrzegalnych w badaniach porownywalnosci obrazu wejsciowego  z rozkompresowanym
+
 
 
 
