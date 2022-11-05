@@ -42,6 +42,8 @@ i program do konpresji i dekompresji dzialalby w trybie mieszanym czyli pierwsza
 
 to ma sens poniewaz chyba lepiej zapisac cos ze sie powtarza tylko dwoma pozycjami (binary "red")(11)(19)  np kolor czerwony o danym spektrum rgb jesli wystapil w ciagu danych a kompresor wykryl ze jest on taki sam np 19 razy po uwzglednieniu uchybien nie dostrzegalnych w badaniach porownywalnosci obrazu wejsciowego  z rozkompresowanym
 
+de-compresja barw za pomoca funkcji trygometrycznych F(x)znanych w matematyce.png
+
 
 
 
