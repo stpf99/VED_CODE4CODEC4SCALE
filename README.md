@@ -44,6 +44,8 @@ to ma sens poniewaz chyba lepiej zapisac cos ze sie powtarza tylko dwoma pozycja
 
 de-compresja barw za pomoca funkcji trygometrycznych F(x)znanych w matematyce.png
 
+curves identification and dump to 2 max 3 point variables.png
+
 
 
 
