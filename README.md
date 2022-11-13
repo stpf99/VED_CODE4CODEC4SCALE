@@ -112,4 +112,5 @@ if "weight b" < "weight a" compress "b"
 
 żonglowanie kolorami i ich dedukcja 
 "sprawdż czy to ci sie sprawdza"
+ktos moze sie sprzeczac ze tak wyszlo po rowno bo na krzyz suma dzielona na 4 to tez 5 ale ja to tylko na przykladzie najprostszych cyferek przedstawilem, realnie bylby to w gorszej jakosci obrazu porównywany pixel a raczej jego np z 16bitowej palety zapis lub wg zapisu rgb/itp i znając już nawet ten pojedynczy pixel/jego unikalna wartosc wg reverse enginering czyli kodowanie wstecznego mozna opracowac model lingwistyczny jak to sie ma gdy ten sam obraz jest fotografowany aparatem vga porownojac to z aparatem 2xVga i wtedy to matematyczne stwierdzenie uwzglednic w ty zapisie kodu reverse-enginering i wtedy znajac wartosc pixela i kod/model lingwistyczny dla danej przestrzeni barw to sie sprawdzi a tym modelem lingwistycznym jest wlasnie to co tu zapisałem
 
