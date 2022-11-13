@@ -110,4 +110,6 @@ when for 0  where is less adresses  than 1
 if "weight a" < "weight b" compress "a"
 if "weight b" < "weight a" compress "b"
 
+żonglowanie kolorami i ich dedukcja 
+"sprawdż czy to ci sie sprawdza"
 
