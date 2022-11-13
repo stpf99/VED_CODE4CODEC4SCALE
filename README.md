@@ -99,4 +99,15 @@ a jesli brac pod uwage ze transmisja nie jest na zywo tylko retransmitowana a od
 w informatyce jest tak ze jak cos swietnie dziala na skeletonie/prymitywie to nie ma problemu aby dawalo rade w realiach
 i jesli to sie uda zrobic to nastepnie mozna myslec juz o wiekszych i zarazem bardziej oblozonych strukturach danych
 
+ubdate 13.11.2022
+
+1_0-adressing.jpg
+
+01-adressing from packaeges (pool of data) for compression
+ when  for 1 where is less adresses than  0 
+occured in package or
+when for 0  where is less adresses  than 1
+if "weight a" < "weight b" compress "a"
+if "weight b" < "weight a" compress "b"
+
 
