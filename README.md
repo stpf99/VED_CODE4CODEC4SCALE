@@ -1,6 +1,6 @@
 IMPORTANTE haha
 
-
+<img width="964" alt="8KB" src="https://github.com/stpf99/VED_CODE4CODEC4SCALE/blob/badcb3d1c6b43fa84402d36186cf9cb9733cc93e/10545603020505958987.jpg">
 https://www.youtube.com/watch?v=33Ij_IOQlx4
 mam wstepny pomysł na to jak zapisac film  w 8KB
 po pierwsze zmiana dzialania kamery i tego jak jest zbudowana
