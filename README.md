@@ -12,7 +12,7 @@ po trzecie a zarazem najwazniejsze musi to byc zapisywane i pobierane przez oko 
 8 Kibibytes = 65536 Bitów
 
 
-60min = ~1000 Bitów na minute (bo audio musi byc zapisane)
+60sek = ~1000 Bitów na sekunde (bo audio musi byc zapisane)
 
 
 czyli najlepiej minuta to 60s 30kl = pojemnosc 1800 notacji ktore potrzba skompresowac
