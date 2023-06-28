@@ -51,7 +51,7 @@ tablica alfabetu ktora siedzi sobie po stronie odbiornika lub nadajnika i nie je
 czyli dekoder musialby miec dysk ok 64terabjty pojemnosci na alfabet aby zamiast <<<<<8 stacji>>>>>> tv jak obecnie aby ogladac >>>>>>>480 000 stacji<<<<<<<
 nie wiem czy dobrze to policzylem moze tablca 8 megabajtowa bedzie wystarczajaca
 
-
+aha 64 terabajty /sekunde wynosi obecna waga tych 480 000 stacji / sekunde ok 12.5mbit/sekunde dla 4k x 480 000 stacji = 64 000 000 000 0000 bytes
 
 
 
