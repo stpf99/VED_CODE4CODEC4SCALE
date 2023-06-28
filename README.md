@@ -8,64 +8,48 @@ po drugie kilka na raz zapisywanych strumieni/formatow rozdzielczosci
 po trzecie a zarazem najwazniejsze musi to byc zapisywane i pobierane przez oko kamery lub jakiegos rodzaju sensor biometryczny PODBNIE JAK STANDARD PLIKÓW MIDI lub inny bardziej wyrafinowany podobny standard dla danych z tym ze scisle wspolparcujacy z ta biometryczna kamera ktora niczym muzyk instrumentalista wyciska kolejne nuty na keyboardzie midi z kilkoma najpotrzebniejszymi parametrami C0 i A1 to tylko dwie zapisane nuty a mogą przy pomocy próbki dżwiękowej np zapisać to jak brzmi raz tomtom raz werbel
 
 8 Kibibytes = 65536 Bitów
-Tomasz Świątek
+
 8 Kibibytes = 65536 Bitów
-Odpowiedz1 godz.
-Tomasz Świątek
+
+
 60min = ~1000 Bitów na minute (bo audio musi byc zapisane)
-Odpowiedz1 godz.
-Tomasz Świątek
+
+
 czyli najlepiej minuta to 60s 30kl = pojemnosc 1800 notacji ktore potrzba skompresowac
-Odpowiedz1 godz.
-Tomasz Świątek
+
 wspolczynnik kompresji dla zstd ok 2,877
 Może być zdjęciem przedstawiającym tekst „Compressor name Ratio zstd 1.1.3-1 Compression 2.877 Decompress. 430 MB/s zlib 1.2.8-1 1110 MB/s 2.743 110 MB/s brotli 0.5.2- 400 400 MB/s 2.708 400 MB/s quicklz 1.5.0-1 430 MB/s 2.238 550 MB/s Izo1x 2.09-1 710 MB/s 2.108 Iz4 1.7.5 650 MB/s 830 MB/s 2.101 720 MB/s snappy 1.1.3 3600 MB/s 2.091 Izf 3.6-1 3.6 500 MB/s 1650 MB/s 2.077 400 MB/s 860 MB/s”
-Odpowiedz1 godz.Edytowano
-Tomasz Świątek
+
 wynika z tego ze jest to niemozliwe przy uzyciu standardowego polprzewodnikowego zapisu danych ale mozlwe by bylo na hologramie
-Odpowiedz1 godz.Edytowano
-Tomasz Świątek
+
 i najlepiej za pomoca najdluzszego nieistniejacego w realnym swiecie alfabetu
-Odpowiedz1 godz.
-Tomasz Świątek
+
 hologram nalezy traktowac w cudzyslowiu dla tego ze sa sprawdzone metody przesylania i utrwalania danych
-Odpowiedz51 min
-Tomasz Świątek
+
 wystarczy w strukturze hologramu je przesylac za pomoca tak jak mamy na naklejkach produktów kody kreskowe czy kwadracików które mialyby utrwalony ten bardzo rozlegly alfabet
-Odpowiedz49 min
-Tomasz Świątek
+
 i np gdy kanal przesylania w tw ma rozpietosc 8 mhz
-Odpowiedz48 min
-Tomasz Świątek
+
 8x 1024 hz = wystarczjaco dla tego przykladu po kompresji zstd
-Odpowiedz47 min
-Tomasz Świątek
+
 dla a 8 kanalow tv ale moj przyklad daje 60 razy tyle kanlow bo byl policzony dla 60 sekund
-Odpowiedz46 minEdytowano
-Tomasz Świątek
+
 czyli zamiast obecnych 8 kanlow da sie przesylac na jednym muxie 480 stacji
-Odpowiedz43 min
-Tomasz Świątek
+
 wtedy ten rozlegly alfabet hertz po hertzu mialby inna notacje
-Odpowiedz40 min
-Tomasz Świątek
+
 pomylka ,,, 8megahertz = 8 x 1024 x 1024 hz
-Odpowiedz16 min
-Tomasz Świątek
+
 czyli 1000 x 480 = 480 000 stacji tv
-Odpowiedz15 min
-Tomasz Świątek
+
 tablica alfabetu ktora siedzi sobie po stronie odbiornika lub nadajnika i nie jest przesylana to np dla formatu 4k = 8 000 000 pixeli razy rgb (3=9 kombinacji od 0-8) czyli tablica moze byc o rozmiarze 8 megabajtowym dla jednego hologramu (1hz/s) a ilosc kombinacji czyli pula dla pasma 8mhz wynosi= tez 8 000 000 = 64 000 000 000 000 = 64 biliony
-Odpowiedz4 min
-Tomasz Świątek
+
 64 bilony = ok 64 terabajty
-Odpowiedz2 min
-Tomasz Świątek
+
 1TB = 1,099,511,627,776 bajtów
-Odpowiedz2 min
-Tomasz Świątek
+
 czyli dekoder musialby miec dysk ok 64terabjty pojemnosci na alfabet aby zamiast <<<<<8 stacji>>>>>> tv jak obecnie ogladac >>>>>>>480 000 stacji<<<<<<<
-Odpowiedz1 min
+
 
 
 
