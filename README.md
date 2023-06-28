@@ -48,7 +48,7 @@ tablica alfabetu ktora siedzi sobie po stronie odbiornika lub nadajnika i nie je
 
 1TB = 1,099,511,627,776 bajtów
 
-czyli dekoder musialby miec dysk ok 64terabjty pojemnosci na alfabet aby zamiast <<<<<8 stacji>>>>>> tv jak obecnie ogladac >>>>>>>480 000 stacji<<<<<<<
+czyli dekoder musialby miec dysk ok 64terabjty pojemnosci na alfabet aby zamiast <<<<<8 stacji>>>>>> tv jak obecnie aby ogladac >>>>>>>480 000 stacji<<<<<<<
 
 
 
