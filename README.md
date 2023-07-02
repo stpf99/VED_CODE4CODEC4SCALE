@@ -20,7 +20,8 @@ po trzecie a zarazem najwazniejsze musi to byc zapisywane i pobierane przez oko 
 
 inna droga idac
 W 33 bitach można zapisać 2 do potęgi 33 wartości numerycznych, co wynosi 8 589 934 592. i kazda z tych pozycji dla 4k czyli 8 000 000 px mozna zadresowac dla pixela po ok >>>>1000 wersji na pixel<<< jako zmianiajaca sie z klatki na klatke sume kontrolna to az za duzo bo podobno wystarcza 10-bit czyli potencjalnie w tej sumie kontrolnej mozna zapisac 4k x 100kl = 33bit =3s 33kl 4k = 1000bit =100s 33kl 4k= 65500bit = 100sx65,5 =65500s 33kl 4k = 1,8<2h 33kl 4K
-i tych >8 000 000 000 mozliwosci czyli unikalnych paternow naprawde jest i tylko w ten sposob ze mimo odczytu jednej wartosci otrzymujemy adres jednej z 8 000 000 000 kombinacji przemiszan a potrebnych jest max przemieszan 64 000 000 000 000 cyli max przyrostowa waga zmian z klatki na klatke musi utrzymac sie w puli  8 000 razy mniejszej , to moze w  8 mld paternow zawzec 8 mln pix w strukturze atrybut constant 00 lub atrybut wektor (+ 0, - 1 )x (4 stopniowania) kierunku lub / i atrybut gamma (rgb) constant / docelowa
+i tych >8 000 000 000 mozliwosci czyli unikalnych paternow naprawde jest i tylko w ten sposob ze mimo odczytu jednej wartosci otrzymujemy adres jednej z 8 000 000 000 kombinacji przemiszan a potrebnych jest max przemieszan 64 000 000 000 000 cyli max przyrostowa waga zmian z klatki na klatke musi utrzymac sie w puli  8 000 razy mniejszej , to moze w  8 mld paternow zawzec 8 mln pix w strukturze atrybut constant lub atrybut zmiana w miejscu lub atrybut wektor (+ 0, - 1 )x (4 stopniowania) kierunku lub / i atrybut gamma (rgb) constant / docelowa co daje dodatykowych  4 atrybute kazdy po 2 wlasciwosci i dla kierunku 4 wlasciwosci dodatkowe
+
 nowy pomysl to zamiast na stale przechowywac tak ogromna ilosc patternow mozna bylo by to zanaczaco uproscic aby te kombinacje byly przechowywane w kodzie programu generujacego adhoc potrzebne patterny
 
 
