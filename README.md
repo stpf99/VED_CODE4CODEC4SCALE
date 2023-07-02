@@ -21,6 +21,10 @@ po trzecie a zarazem najwazniejsze musi to byc zapisywane i pobierane przez oko 
 inna droga idac
 W 33 bitach można zapisać 2 do potęgi 33 wartości numerycznych, co wynosi 8 589 934 592. i kazda z tych pozycji dla 4k czyli 8 000 000 px mozna zadresowac dla pixela po ok >>>>1000 wersji na pixel<<< jako zmianiajaca sie z klatki na klatke sume kontrolna to az za duzo bo podobno wystarcza 10-bit czyli potencjalnie w tej sumie kontrolnej mozna zapisac 4k x 100kl = 33bit =3s 33kl 4k = 1000bit =100s 33kl 4k= 65500bit = 100sx65,5 =65500s 33kl 4k = 1,8<2h 33kl 4K
 
+nowy pomysl to zamiast na stale przechowywac tak ogromna ilosc patternow mozna bylo by to zanaczaco uproscic aby te kombinacje byly przechowywane w kodzie programu generujacego adhoc potrzebne patterny
+
+
+
 czyli najlepiej minuta to 60s 30kl = pojemnosc 1800 notacji ktore potrzba skompresowac
 
 wspolczynnik kompresji dla zstd ok 2,877
