@@ -1,4 +1,7 @@
->>>>>>>this replace 8 channels HD on 480 000 channels in 400k in one mux dvb-t2<<<<<<<<
+>>>>>>>this replace 8 channels HD on 480 000 channels in 400k in one mux dvb-t2<<<<<<<< also
+>>>>>>>
+ 100min 4K in 8KB
+
  
 <img width="964" alt="8KB" src="https://github.com/stpf99/VED_CODE4CODEC4SCALE/blob/badcb3d1c6b43fa84402d36186cf9cb9733cc93e/10545603020505958987.jpg">
 https://www.youtube.com/watch?v=33Ij_IOQlx4
