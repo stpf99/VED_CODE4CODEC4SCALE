@@ -1,6 +1,6 @@
 >>>>>>>this replace 8 channels HD on 480 000 channels in 400k in one mux dvb-t2<<<<<<<< also
 >>>>>>>
- 100min 4K in 8KB
+ 1,8<1,9h 33kl 4K in >8KB<
 
  
 <img width="964" alt="8KB" src="https://github.com/stpf99/VED_CODE4CODEC4SCALE/blob/badcb3d1c6b43fa84402d36186cf9cb9733cc93e/10545603020505958987.jpg">
@@ -19,7 +19,7 @@ po trzecie a zarazem najwazniejsze musi to byc zapisywane i pobierane przez oko 
 ~1000 Bitów na sekunde to powiiny byc zmiany przyrostowe poklatkowe dla 30 kl obrazu czyli 33 bity dla jedynie tego co nowe w klatce nastepnej wzgledem poprzedniej a 33 bity czyli 0 lub 1 to dla tak duzego formatu jak 4k ale nie mozliwe aby ogarnac taka pule w nawet tylko 33bit chyba ze napiszemy rodzaj "frakcyjnego wsadu dla kodu" po stronie dekompresora ktory po odczy cie tych 33 bit wjedzialby ktora frakcje z kodu zastosowac np 10 idziemy w lewy zbior 01 w prawy itd w tem sposob dla 32 bit da sie zagniezdizic 16 schodow taka piramide a gdy by to bylo malo mozna podzielic 32 /8 pomnazalnych przez siebie frakcji 4 = 01 10, 4= 10 10 itd co dje razem 4x4x4x4x4x4x4x4 ok 64 000 frakcji w ktorych dla  4k czyli 8 000 000 px musi  beda zauwazane zmiany przyrostow pixeli z klatki na klatke ktore powinny byc potem przypisywane do konkretnej frakcji tego kodu a kazda z fracji zawierajaca w sobie adres pixela i jego nowy stan
 
 inna droga idac
-W 33 bitach można zapisać 2 do potęgi 33 wartości numerycznych, co wynosi 8 589 934 592. i kazda z tych pozycji dla 4k czyli 8 000 000 px mozna zadresowac dla pixela po ok >>>>1000 wersji na pixel<<< jako zmianiajaca sie z klatki na klatke sume kontrolna to az za duzo bo podobno wystarcza 10-bit czyli potencjalnie w tej sumie kontrolnej mozna zapisac 4k x 100 = >>>>>>400K<<<<<<<
+W 33 bitach można zapisać 2 do potęgi 33 wartości numerycznych, co wynosi 8 589 934 592. i kazda z tych pozycji dla 4k czyli 8 000 000 px mozna zadresowac dla pixela po ok >>>>1000 wersji na pixel<<< jako zmianiajaca sie z klatki na klatke sume kontrolna to az za duzo bo podobno wystarcza 10-bit czyli potencjalnie w tej sumie kontrolnej mozna zapisac 4k x 100kl = 33bit =3s 33kl 4k = 1000bit =100s 33kl 4k= 65500bit = 100sx65,5 =65500s 33kl 4k = 1,8<2h 33kl 4K
 
 czyli najlepiej minuta to 60s 30kl = pojemnosc 1800 notacji ktore potrzba skompresowac
 
