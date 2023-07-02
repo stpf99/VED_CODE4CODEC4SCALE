@@ -57,6 +57,8 @@ nie wiem czy dobrze to policzylem moze tablca 8 megabajtowa bedzie wystarczajaca
 aha 64 terabajty /sekunde wynosi obecna waga tych 480 000 stacji / sekunde ok 12.5mbit/sekunde dla 4k x 480 000 stacji = 64 000 000 000 0000 bytes
 
 
+nowy pomysl to zamiast na stale przechowywac tak ogromna ilosc patternow mozna bylo by to zanaczaco uproscic aby te kombinacje byly przechowywane w kodzie programu generujacego adhoc potrzebne patterny
+
 
 EN
 
