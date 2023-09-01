@@ -1,3 +1,33 @@
+I have a preliminary idea on how to save a video in 8KB. First, change the camera's operation and its construction. Second, record multiple streams/formats of resolutions simultaneously. Third, and most importantly, it must be recorded and retrieved by the camera's eye or some kind of biometric sensor, SIMILAR TO THE MIDI file format or another more sophisticated standard for data, but closely integrated with this biometric camera, which, like a musical instrumentalist, extracts successive notes on a MIDI keyboard with a few essential parameters, C0 and A1 being just two saved notes, and with the help of a sound sample, for example, record how it sounds, such as a tom-tom or snare drum.
+
+8 Kibibytes = 65536 Bits
+
+60 seconds = ~1000 Bits per second (because audio must be recorded) ~1000 Bits per second should be incremental frame changes for 30 fps, which is 33 bits for only what's new in the next frame compared to the previous one. 33 bits, i.e., 0 or 1, are for a large format like 4K, but it's not possible to manage such a pool in just 33 bits unless we write a kind of "fractional input for code" on the decompressor side, which, after reading these 33 bits, would determine which fraction of the code to apply, e.g., 10 goes left, 01 goes right, etc. In this way, for 32 bits, you can nest 16 steps like a pyramid. If that's not enough, you can divide 32 by 8, multiplying by each other fraction, e.g., 4 = 01 10, 4 = 10 10, and so on. This results in 4x4x4x4x4x4x4x4, which is approximately 64,000 fractions. For 4K, i.e., 8,000,000 pixels, changes in pixel increments between frames need to be noticed and then assigned to a specific fraction of this code. Each fraction contains the pixel's address and its new state.
+
+In another way, with 33 bits, you can encode 2^33 numeric values, which equals 8,589,934,592. And each of these positions for 4K, i.e., 8,000,000 pixels, can be addressed for the pixel at approximately >>>>1000 versions per pixel<<< as changing increments from frame to frame. However, the checksum is too large because supposedly 10 bits are enough, which potentially can store 4K x 100 frames = 33 bits = 3s, 33 frames of 4K = 1000 bits = 100s, 33 frames of 4K = 65500 bits = 100s x 65.5 = 65500s, 33 frames of 4K = 1.8 <2h 33 frames of 4K, and there are more than 8,000,000,000 possibilities, i.e., unique patterns. Therefore, even with reading a single value, we get one of 8,000,000,000 combinations, and the required combinations are at most 64,000,000,000,000. So, the maximum incremental change weight from frame to frame must be maintained in a pool 8,000 times smaller. Thus, in 8 billion patterns, we accommodate 8 million pixels with the attributes constant, change in place, or vector attribute for a new pixel address or multiple addresses x, y, e.g., 1000x2500 (+ 0, -1) x (4 degrees) of direction and/or attribute gamma (rgb) constant/target, which adds 4 attributes, each with 2 properties. For direction, there are 4 additional properties. This can ultimately be encoded in 12 bit positions, 8 million x stripped/compressed to 10 = 80 million. An additional 100 times for error correction and more, 1000 PIXEL STATES ALWAYS NEED A TABLE OF POSSIBLE COMBINATIONS FOR THEIR ATTRIBUTES, WHICH WOULD BE THE CARRIER FOR THIS PIXEL IN LIMITED-ADDRESS RANGE DIRECTIONS AND REPEATED EVERY 1000 AND SO ON FROM 1 TO 1000 UP TO 8 MILLION PIXELS AND 8 BILLION COMBINATIONS.
+
+A new idea is instead of permanently storing such a vast number of patterns, it could be significantly simplified so that these combinations are stored in the code of the program generating the necessary patterns ad hoc.
+
+So, ideally, one minute is 60s x 30fps = a capacity of 1800 notations that need to be compressed.
+
+The compression ratio for zstd is about 2.877. It might be a representation like this: "Compressor name Ratio zstd 1.1.3-1 Compression 2.877 Decompress. 430 MB/s zlib 1.2.8-1 1110 MB/s 2.743 110 MB/s brotli 0.5.2- 400 400 MB/s 2.708 400 MB/s quicklz 1.5.0-1 430 MB/s 2.238 550 MB/s Izo1x 2.09-1 710 MB/s 2.108 Iz4 1.7.5 650 MB/s 830 MB/s 2.101 720 MB/s snappy 1.1.3 3600 MB/s 2.091 Izf 3.6-1 3.6 500 MB/s 1650 MB/s 2.077 400 MB/s 860 MB/s". This indicates that it's impossible to achieve this with standard semiconductor data storage, but it might be possible with a hologram. The best approach could be to use the longest non-existent alphabet in the real world.
+
+The term "hologram" should be taken in quotes because there are proven methods for transmitting and storing data. You can transmit these patterns in the hologram's structure as we have barcodes or QR codes on product labels. These would have the extensive alphabet preserved.
+
+For example, if the transmission channel in TV has a bandwidth of 8 MHz, 8 x 1024 Hz = enough for this example after zstd compression. For 8 TV channels, but my example gives 60 times as many channels because it was calculated for 60 seconds. So, instead of the current 8 channels, you can transmit 480 stations on one multiplex. In that case, this extensive alphabet, hertz by hertz, would have a different notation.
+
+Correction, 8 megahertz = 8 x 1024 x 1024 Hz, which is 1000 x 480 = 480,000 TV stations. The alphabet table sitting on the receiver's or transmitter's side and not being transmitted, for example, for the 4K format = 8,000,000 pixels x RGB (3 = 9 combinations from 0-8), so the table can be 8 megabytes for one hologram (1 Hz/s), and the number of combinations, i.e., the bandwidth for 8 MHz, is also 8,000,000 = 64,000,000,000,000 = 64 trillion.
+
+64 trillion = about 64 terabytes.
+
+1 TB = 1,099,511,627,776 bytes.
+
+So, the decoder would need a disk of about 64 terabytes in capacity for the alphabet in order to watch 480,000 stations instead of the current 8 stations. I'm not sure if I calculated this correctly; maybe an 8-megabyte table will be sufficient.
+
+Oh, 64 terabytes per second equals the current weight of those 480,000 stations per second, approximately 12.5 megabits per second for 4K x 480,000 stations = 64,000,000,000,000 bytes.
+
+A new idea is that instead of permanently storing such a vast number of patterns, it could be significantly simplified so that these combinations are stored in the code of the program generating the necessary patterns ad hoc.
+
 >>>>>>>this replace 8 channels HD on 480 000 channels in 400k in one mux dvb-t2<<<<<<<< also
 >>>>>>>
  1,8<1,9h 33kl 4K in >8KB<
