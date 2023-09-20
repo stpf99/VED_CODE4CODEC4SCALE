@@ -250,3 +250,13 @@ wzor ten sluzy do odgadniecia wartosci barwy d nastepnych po a b  c
 ChatGPT
 Dziękuję za dodatkowe wyjaśnienie. Teraz zrozumiałem, że wzór d = c + [c - {(a + b)/2}] służy do obliczenia wartości barwy d na podstawie wartości a, b i c, gdzie a, b i c to wartości barwy wcześniejszych punktów w sekwencji, a d to wartość barwy następnego punktu w sekwencji.
 W takim przypadku, po obliczeniach z poprawionym wzorem, wartość barwy d wynosi 1.5 na podstawie wartości a = 1, b = 4 i c = 2. Ta wartość d jest średnią arytmetyczną barw a i b, a następnie jest przesunięta o różnicę między c a średnią arytmetyczną a i b.
+
+
+
+ta metoda kompletnie nie nadaje sie do innego typu danych data gdzie nastepna wartosc zawsze jest nie do odgadniecia
+
+chyba ze genotyp danych jest podobny
+dla innych typow danych gdzie operuje sie na ciagach fizyczno-operatywnych w podobny sposob mozna na faktycznym modelu opracowac wzory do uzupelniania brakow dla wzorow uproszczonych
+
+czyli pula 1:1 A jest osiagna w przyblizeniu wtedy ~= gdy pula ~1:1 A ..... ~1:1A zawiera ~1:1A = ~1:1A + (1:1A - ~1:1A) ,to jest wzor do potwierdzenia czy opracowy wzor dla danego przypadku bedzie dzialal
+
