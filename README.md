@@ -214,4 +214,39 @@ if "weight b" < "weight a" compress "b"
 żonglowanie kolorami i ich dedukcja 
 "sprawdż czy to ci sie sprawdza"
 ktos moze sie sprzeczac ze tak wyszlo po rowno bo na krzyz suma dzielona na 4 to tez 5 ale ja to tylko na przykladzie najprostszych cyferek przedstawilem, realnie bylby to w gorszej jakosci obrazu porównywany pixel a raczej jego np z 16bitowej palety zapis lub wg zapisu rgb/itp i znając już nawet ten pojedynczy pixel/jego unikalna wartosc wg reverse enginering czyli kodowanie wstecznego mozna opracowac model lingwistyczny jak to sie ma gdy ten sam obraz jest fotografowany aparatem vga porownojac to z aparatem 2xVga i wtedy to matematyczne stwierdzenie uwzglednic w ty zapisie kodu reverse-enginering i wtedy znajac wartosc pixela i kod/model lingwistyczny dla danej przestrzeni barw to sie sprawdzi a tym modelem lingwistycznym jest wlasnie to co tu zapisałem
+<<
+>>
+na prawej zilustrowanej informacji sa braki do niedootworzenia realistycznie z informacji dostarczanych,
+      ostatnio kodujac wizualizacje waveform zaprogramowalem slupki dla czestotliwosci aby po osiagnieciu wartosci dla slupkow szczytowych byly podbijane i zanikaly co dalo "smooth effect"
+moze do kodu tego kodeka zaimplementowac funkcje typu gdy mamy ciagi np a,b,c gdzie a = 3, b = 2, c = 4 to d = (c=4) + (c-[(b+a)/2]  wtedy d = dla tego przypadku 4 + [4- (5/2)] = 4 + 1.5 =5.5
+wtedy jest 3,2,4,(5.5)
+(tu mamy do czynienia z malym zejsciem z watosci prawie koncowych do wartosci polowicznych a nastepnie wejsciem z impetem na sam szczyt i odleceniem ze szczytu ku niebu)
+a dla np gdy nie ostatnia wartosc jest najwyzsza
+a=1,b=4,c=2 wzor bedzie d = c + (c-[(b+a)/2] = 2+[2-(4+1)/2]=2+ (-0.5)=1,5 
+(tu mamy do czynienia z duzym podejsciem i srednim zejciem tak wiec konczym w polowie bo nam sie to spodobalo i czcemy jeszcze raz tylko minimalnie krucej)
+>>
 
+User
+d = c + [c - {(a + b)/2}]
+ChatGPT
+Dzięki za sprostowanie wzoru. Teraz, gdy masz poprawiony wzór:
+d = c + [c - {(a + b)/2}]
+Możemy obliczyć wartość d, używając podanych wartości a, b i c:
+a = 1
+b = 4
+c = 2
+d = 2 + [2 - {(1 + 4)/2}]
+Teraz obliczmy te wartości:
+d = 2 + [2 - {5/2}]
+Teraz obliczmy wartość w klamrach:
+d = 2 + [2 - 2.5]
+Teraz odejmujemy 2.5 od 2:
+d = 2 + [-0.5]
+Teraz możemy dodać 2 do -0.5:
+d = 1.5
+Więc, obliczając wartość d zgodnie z poprawionym wzorem i podstawiając wartości a = 1, b = 4 i c = 2, otrzymujemy d = 1.5.
+User
+wzor ten sluzy do odgadniecia wartosci barwy d nastepnych po a b  c
+ChatGPT
+Dziękuję za dodatkowe wyjaśnienie. Teraz zrozumiałem, że wzór d = c + [c - {(a + b)/2}] służy do obliczenia wartości barwy d na podstawie wartości a, b i c, gdzie a, b i c to wartości barwy wcześniejszych punktów w sekwencji, a d to wartość barwy następnego punktu w sekwencji.
+W takim przypadku, po obliczeniach z poprawionym wzorem, wartość barwy d wynosi 1.5 na podstawie wartości a = 1, b = 4 i c = 2. Ta wartość d jest średnią arytmetyczną barw a i b, a następnie jest przesunięta o różnicę między c a średnią arytmetyczną a i b.
