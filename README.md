@@ -1,3 +1,8 @@
+a gdy mamy np 000001111111111100000 to wtedy po srodku ciagu mamy w obu kierunkach po 5 jedynek a nastepnie nic do konca czyli biel , a gdy mamy 10101010101010101010 to wtedy juz muzimy aby bylo prosto i bez udziwnien dla kodu wbic w srodek i juz zbior po zbiorze tym tokiem badac wystapienia bo kazda liczba jest inna, i w kontekscie tego ze potrzeba tu o wiele wiekszego zbioru przy skomplikowanych obrazach ciag 25 pozycyjny tak naprawde niesie ze soba 75 pozycji poniewaz w obu kierunkach to jest 2 x 25 i potem dwie dywidendy od miejsca wystapienia to kolejne +25 czyli razem 75, ptrzeba tylko sposobu aby do takiego wypadkowego wyniku 25 wedrowaly ciagi z przedzialow 75
+
+
+
+
 Aby efektywnie zarządzać przestrzennią obrazów o rozmiarze ~10²⁵ z wykorzystaniem hierarchicznej adresacji i szybkich "skoków" między podzbiorami, proponuję następujące podejście matematyczno-algorytmiczne:
 1. Struktura hierarchii: Drzewo 25-poziomowe z funkcjami przejścia
 Każdy poziom hierarchii odpowiada jednej unikalnej funkcji przejścia (skokowej), która dzieli przestrzeń na podzbiory.
